@@ -13,6 +13,7 @@
 		8E18279326022D8E00E67A29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E18279126022D8E00E67A29 /* Main.storyboard */; };
 		8E18279526022D9400E67A29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E18279426022D9400E67A29 /* Assets.xcassets */; };
 		8E18279826022D9400E67A29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E18279626022D9400E67A29 /* LaunchScreen.storyboard */; };
+		8E1827AC2603C0E800E67A29 /* Roboto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E1827AB2603C0E800E67A29 /* Roboto.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		8E18279426022D9400E67A29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8E18279726022D9400E67A29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8E18279926022D9400E67A29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E1827AB2603C0E800E67A29 /* Roboto.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Roboto.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		8E18278A26022D8E00E67A29 /* IproveSchool */ = {
 			isa = PBXGroup;
 			children = (
+				8E1827AA2603C0CE00E67A29 /* Fonts */,
 				8E18278B26022D8E00E67A29 /* AppDelegate.swift */,
 				8E18278D26022D8E00E67A29 /* SceneDelegate.swift */,
 				8E18278F26022D8E00E67A29 /* ViewController.swift */,
@@ -65,6 +68,14 @@
 				8E18279926022D9400E67A29 /* Info.plist */,
 			);
 			path = IproveSchool;
+			sourceTree = "<group>";
+		};
+		8E1827AA2603C0CE00E67A29 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				8E1827AB2603C0E800E67A29 /* Roboto.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +135,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E1827AC2603C0E800E67A29 /* Roboto.ttf in Resources */,
 				8E18279826022D9400E67A29 /* LaunchScreen.storyboard in Resources */,
 				8E18279526022D9400E67A29 /* Assets.xcassets in Resources */,
 				8E18279326022D8E00E67A29 /* Main.storyboard in Resources */,
