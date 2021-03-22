@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  IproveSchool
+//  AlexandrTraning
 //
-//  Created by OnlyFrenzy on 17.03.2021.
+//  Created by OnlyFrenzy on 06.03.2021.
 //
 
 import UIKit
