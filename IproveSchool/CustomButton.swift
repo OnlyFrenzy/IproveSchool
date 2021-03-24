@@ -7,7 +7,7 @@
 
 import UIKit
 
-@IBDesignable class CustomButton: UIButton {
+class CustomButton: UIButton {
     
     override var isHighlighted: Bool {
         didSet {

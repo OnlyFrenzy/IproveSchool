@@ -27,9 +27,17 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    deinit {
+        removeKeyBoardNotifications()
+    }
+    
     func keyBoardNotifications() {
         NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillShow), name: UIResponder.keyboardWillShowNotification, object: nil)
         NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillHide), name: UIResponder.keyboardWillHideNotification, object: nil)
+    }
+    
+    func removeKeyBoardNotifications() {
+        NotificationCenter.default.removeObserver(self)
     }
     
     @objc func keyboardWillShow(notification: Notification) {
