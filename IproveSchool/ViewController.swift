@@ -68,6 +68,7 @@ class ViewController: UIViewController {
     func setupTextField () {
         self.loginTextfield.delegate = self
         self.passwordTextField.delegate = self
+        self.scrollView.delegate = self
         loginTextfield.returnKeyType = .next
         passwordTextField.returnKeyType = .done
     }
@@ -102,6 +103,19 @@ extension ViewController: UITextFieldDelegate {
         default:
             self.passwordTextField.resignFirstResponder()
         }
+    }
+}
+
+extension ViewController: UIScrollViewDelegate {
+    
+    func scrollViewDidScroll(_ scrollView: UIScrollView) {
+        let contentOffsets = scrollView.contentOffset.y
+        var tmpFontSize = 36 - (contentOffsets)
+        if tmpFontSize > 63 {
+            tmpFontSize = 63
+        }
+        let fontSize = max(36, tmpFontSize)
+        titleLabel.font = titleLabel.font.withSize(fontSize)
     }
 }
 
