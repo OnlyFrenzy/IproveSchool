@@ -106,6 +106,8 @@ extension ViewController: UITextFieldDelegate {
     }
 }
 
+//MARK: ScrollView Delegate
+
 extension ViewController: UIScrollViewDelegate {
     
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
