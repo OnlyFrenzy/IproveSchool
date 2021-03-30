@@ -13,9 +13,19 @@
 		8E18279526022D9400E67A29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E18279426022D9400E67A29 /* Assets.xcassets */; };
 		8E18279826022D9400E67A29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E18279626022D9400E67A29 /* LaunchScreen.storyboard */; };
 		8E1827AC2603C0E800E67A29 /* Roboto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E1827AB2603C0E800E67A29 /* Roboto.ttf */; };
+		8E7DA7A4260E0EB200BB9BD9 /* NSObject+className.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7DA7A3260E0EB200BB9BD9 /* NSObject+className.swift */; };
+		8E7DA7A7260E180200BB9BD9 /* CGColor+UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7DA7A6260E180200BB9BD9 /* CGColor+UIColor.swift */; };
+		8E7DA7AA260E182300BB9BD9 /* UIImage+PortraitImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7DA7A9260E182300BB9BD9 /* UIImage+PortraitImage.swift */; };
+		8E7DCFE72611DFF700741897 /* AnimalTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7DCFE52611DFF700741897 /* AnimalTableViewCell.swift */; };
+		8E7DCFE82611DFF700741897 /* AnimalTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E7DCFE62611DFF700741897 /* AnimalTableViewCell.xib */; };
+		8E7DCFEB2611E0C800741897 /* DefaultCellProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7DCFEA2611E0C800741897 /* DefaultCellProtocol.swift */; };
+		8E7DCFEF2611F8B200741897 /* StyledTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7DCFEE2611F8B200741897 /* StyledTableViewCell.swift */; };
+		8E86C17F260E04AF00FC4EB0 /* ContactTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E86C17D260E04AF00FC4EB0 /* ContactTableViewCell.swift */; };
+		8E86C180260E04AF00FC4EB0 /* ContactTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E86C17E260E04AF00FC4EB0 /* ContactTableViewCell.xib */; };
+		8E86C189260E0A3400FC4EB0 /* ItemsListTableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E86C188260E0A3400FC4EB0 /* ItemsListTableViewDataSource.swift */; };
 		8E88CAA52604D4F7009927E6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E88CAA42604D4F7009927E6 /* SceneDelegate.swift */; };
 		8E88CAA92604E563009927E6 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E88CAA82604E563009927E6 /* CustomButton.swift */; };
-		8E88CAB02608A781009927E6 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E88CAAF2608A781009927E6 /* Extensions.swift */; };
+		8E88CAB6260E0294009927E6 /* ItemsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E88CAB5260E0294009927E6 /* ItemsListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,9 +37,19 @@
 		8E18279726022D9400E67A29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8E18279926022D9400E67A29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8E1827AB2603C0E800E67A29 /* Roboto.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Roboto.ttf; sourceTree = "<group>"; };
+		8E7DA7A3260E0EB200BB9BD9 /* NSObject+className.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject+className.swift"; sourceTree = "<group>"; };
+		8E7DA7A6260E180200BB9BD9 /* CGColor+UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGColor+UIColor.swift"; sourceTree = "<group>"; };
+		8E7DA7A9260E182300BB9BD9 /* UIImage+PortraitImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+PortraitImage.swift"; sourceTree = "<group>"; };
+		8E7DCFE52611DFF700741897 /* AnimalTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalTableViewCell.swift; sourceTree = "<group>"; };
+		8E7DCFE62611DFF700741897 /* AnimalTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AnimalTableViewCell.xib; sourceTree = "<group>"; };
+		8E7DCFEA2611E0C800741897 /* DefaultCellProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultCellProtocol.swift; sourceTree = "<group>"; };
+		8E7DCFEE2611F8B200741897 /* StyledTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyledTableViewCell.swift; sourceTree = "<group>"; };
+		8E86C17D260E04AF00FC4EB0 /* ContactTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactTableViewCell.swift; sourceTree = "<group>"; };
+		8E86C17E260E04AF00FC4EB0 /* ContactTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContactTableViewCell.xib; sourceTree = "<group>"; };
+		8E86C188260E0A3400FC4EB0 /* ItemsListTableViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsListTableViewDataSource.swift; sourceTree = "<group>"; };
 		8E88CAA42604D4F7009927E6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		8E88CAA82604E563009927E6 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
-		8E88CAAF2608A781009927E6 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		8E88CAB5260E0294009927E6 /* ItemsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,16 +82,14 @@
 		8E18278A26022D8E00E67A29 /* IproveSchool */ = {
 			isa = PBXGroup;
 			children = (
+				8E7DA7AD260E188800BB9BD9 /* Main */,
+				8E86C184260E051800FC4EB0 /* Extensions */,
+				8E86C183260E050100FC4EB0 /* Services */,
 				8E1827AA2603C0CE00E67A29 /* Fonts */,
-				8E18278B26022D8E00E67A29 /* AppDelegate.swift */,
-				8E88CAA42604D4F7009927E6 /* SceneDelegate.swift */,
-				8E18278F26022D8E00E67A29 /* ViewController.swift */,
-				8E88CAA82604E563009927E6 /* CustomButton.swift */,
-				8E88CAAF2608A781009927E6 /* Extensions.swift */,
+				8E88CAB3260E0236009927E6 /* ItemsList */,
 				8E18279126022D8E00E67A29 /* Main.storyboard */,
 				8E18279426022D9400E67A29 /* Assets.xcassets */,
 				8E18279626022D9400E67A29 /* LaunchScreen.storyboard */,
-				8E18279926022D9400E67A29 /* Info.plist */,
 			);
 			path = IproveSchool;
 			sourceTree = "<group>";
@@ -82,6 +100,82 @@
 				8E1827AB2603C0E800E67A29 /* Roboto.ttf */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		8E7DA7AD260E188800BB9BD9 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				8E18278F26022D8E00E67A29 /* ViewController.swift */,
+				8E7DA7AE260E189900BB9BD9 /* CustomButton */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		8E7DA7AE260E189900BB9BD9 /* CustomButton */ = {
+			isa = PBXGroup;
+			children = (
+				8E88CAA82604E563009927E6 /* CustomButton.swift */,
+			);
+			path = CustomButton;
+			sourceTree = "<group>";
+		};
+		8E7DCFE42611DFCF00741897 /* AnimalTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				8E7DCFE52611DFF700741897 /* AnimalTableViewCell.swift */,
+				8E7DCFE62611DFF700741897 /* AnimalTableViewCell.xib */,
+			);
+			path = AnimalTableViewCell;
+			sourceTree = "<group>";
+		};
+		8E86C182260E04DF00FC4EB0 /* ContactTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				8E86C17D260E04AF00FC4EB0 /* ContactTableViewCell.swift */,
+				8E86C17E260E04AF00FC4EB0 /* ContactTableViewCell.xib */,
+			);
+			path = ContactTableViewCell;
+			sourceTree = "<group>";
+		};
+		8E86C183260E050100FC4EB0 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				8E18278B26022D8E00E67A29 /* AppDelegate.swift */,
+				8E88CAA42604D4F7009927E6 /* SceneDelegate.swift */,
+				8E18279926022D9400E67A29 /* Info.plist */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		8E86C184260E051800FC4EB0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8E7DA7A3260E0EB200BB9BD9 /* NSObject+className.swift */,
+				8E7DA7A6260E180200BB9BD9 /* CGColor+UIColor.swift */,
+				8E7DA7A9260E182300BB9BD9 /* UIImage+PortraitImage.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		8E88CAB3260E0236009927E6 /* ItemsList */ = {
+			isa = PBXGroup;
+			children = (
+				8E88CAB5260E0294009927E6 /* ItemsListViewController.swift */,
+				8E88CAB4260E0258009927E6 /* Cells */,
+			);
+			path = ItemsList;
+			sourceTree = "<group>";
+		};
+		8E88CAB4260E0258009927E6 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				8E86C188260E0A3400FC4EB0 /* ItemsListTableViewDataSource.swift */,
+				8E7DCFEA2611E0C800741897 /* DefaultCellProtocol.swift */,
+				8E7DCFEE2611F8B200741897 /* StyledTableViewCell.swift */,
+				8E7DCFE42611DFCF00741897 /* AnimalTableViewCell */,
+				8E86C182260E04DF00FC4EB0 /* ContactTableViewCell */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,9 +236,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				8E1827AC2603C0E800E67A29 /* Roboto.ttf in Resources */,
+				8E86C180260E04AF00FC4EB0 /* ContactTableViewCell.xib in Resources */,
 				8E18279826022D9400E67A29 /* LaunchScreen.storyboard in Resources */,
 				8E18279526022D9400E67A29 /* Assets.xcassets in Resources */,
 				8E18279326022D8E00E67A29 /* Main.storyboard in Resources */,
+				8E7DCFE82611DFF700741897 /* AnimalTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,11 +251,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E88CAB02608A781009927E6 /* Extensions.swift in Sources */,
+				8E7DA7A4260E0EB200BB9BD9 /* NSObject+className.swift in Sources */,
 				8E88CAA92604E563009927E6 /* CustomButton.swift in Sources */,
+				8E86C189260E0A3400FC4EB0 /* ItemsListTableViewDataSource.swift in Sources */,
 				8E18279026022D8E00E67A29 /* ViewController.swift in Sources */,
 				8E18278C26022D8E00E67A29 /* AppDelegate.swift in Sources */,
+				8E7DCFE72611DFF700741897 /* AnimalTableViewCell.swift in Sources */,
 				8E88CAA52604D4F7009927E6 /* SceneDelegate.swift in Sources */,
+				8E7DCFEF2611F8B200741897 /* StyledTableViewCell.swift in Sources */,
+				8E7DCFEB2611E0C800741897 /* DefaultCellProtocol.swift in Sources */,
+				8E7DA7A7260E180200BB9BD9 /* CGColor+UIColor.swift in Sources */,
+				8E86C17F260E04AF00FC4EB0 /* ContactTableViewCell.swift in Sources */,
+				8E88CAB6260E0294009927E6 /* ItemsListViewController.swift in Sources */,
+				8E7DA7AA260E182300BB9BD9 /* UIImage+PortraitImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,7 +412,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WLLTHZ3VP7;
-				INFOPLIST_FILE = IproveSchool/Info.plist;
+				INFOPLIST_FILE = IproveSchool/Services/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -327,7 +431,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WLLTHZ3VP7;
-				INFOPLIST_FILE = IproveSchool/Info.plist;
+				INFOPLIST_FILE = IproveSchool/Services/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
