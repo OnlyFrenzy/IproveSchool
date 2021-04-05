@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ZB0-yS-yt4">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="DlB-IS-bYX">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -15,34 +16,34 @@
         <!--View Controller-->
         <scene sceneID="Gbh-kC-pyY">
             <objects>
-                <viewController id="OxT-O3-d5M" customClass="ViewController" customModule="IproveSchool" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController restorationIdentifier="ViewController" storyboardIdentifier="ViewController" id="OxT-O3-d5M" customClass="ViewController" customModule="IproveSchool" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xAf-je-Tbb">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JsG-1R-9Ku">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eVm-R9-qtO">
-                                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="818"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Авторизация" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.10000000149011612" translatesAutoresizingMaskIntoConstraints="NO" id="GSq-ZG-ys2">
-                                                <rect key="frame" x="16" y="51" width="568" height="42"/>
+                                                <rect key="frame" x="16" y="142" width="382" height="42.5"/>
                                                 <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="36"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" text="Авторизуйтесь, чтоб получить доступ к полному функционалу приложения" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.10000000000000001" translatesAutoresizingMaskIntoConstraints="NO" id="jfO-q6-5Ju">
-                                                <rect key="frame" x="16" y="119" width="568" height="56"/>
+                                                <rect key="frame" x="16" y="210.5" width="382" height="84.5"/>
                                                 <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="24"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="18" translatesAutoresizingMaskIntoConstraints="NO" id="fuK-Q3-Kp2">
-                                                <rect key="frame" x="16" y="251" width="568" height="158"/>
+                                                <rect key="frame" x="16" y="371" width="382" height="158"/>
                                                 <subviews>
                                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Login" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KgH-z8-sfd">
-                                                        <rect key="frame" x="0.0" y="0.0" width="568" height="70"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="382" height="70"/>
                                                         <color key="backgroundColor" red="0.76862745099999996" green="0.76862745099999996" blue="0.76862745099999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="70" id="a4X-DB-VZF"/>
@@ -52,7 +53,7 @@
                                                         <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
                                                     </textField>
                                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lRV-RA-uJZ">
-                                                        <rect key="frame" x="0.0" y="88" width="568" height="70"/>
+                                                        <rect key="frame" x="0.0" y="88" width="382" height="70"/>
                                                         <color key="backgroundColor" red="0.76862745099999996" green="0.76862745099999996" blue="0.76862745099999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="24"/>
@@ -64,10 +65,10 @@
                                                 </constraints>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="mKk-cf-nOW">
-                                                <rect key="frame" x="0.0" y="445" width="600" height="117"/>
+                                                <rect key="frame" x="0.0" y="663" width="414" height="117"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ymG-F6-0GH" customClass="CustomButton" customModule="IproveSchool" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="0.0" width="600" height="51"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="414" height="51"/>
                                                         <color key="backgroundColor" red="0.19215686269999999" green="0.40784313729999999" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="51" id="i2B-QA-K35"/>
@@ -95,7 +96,7 @@
                                                         </userDefinedRuntimeAttributes>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zSm-Hd-QH2" customClass="CustomButton" customModule="IproveSchool" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="66" width="600" height="51"/>
+                                                        <rect key="frame" x="0.0" y="66" width="414" height="51"/>
                                                         <color key="backgroundColor" red="0.19215686269999999" green="0.40784313729999999" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="24"/>
                                                         <state key="normal" title="Зарегистрироваться">
@@ -168,18 +169,18 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZkS-Aa-Bb6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-137" y="54"/>
+            <point key="canvasLocation" x="725" y="58"/>
         </scene>
         <!--Items List View Controller-->
         <scene sceneID="KFw-FM-d3u">
             <objects>
-                <viewController id="ZB0-yS-yt4" customClass="ItemsListViewController" customModule="IproveSchool" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController restorationIdentifier="ItemsListViewController" storyboardIdentifier="ItemsListViewController" id="ZB0-yS-yt4" customClass="ItemsListViewController" customModule="IproveSchool" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="YVB-sl-juw">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="fth-O1-MOb">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </tableView>
                         </subviews>
@@ -188,17 +189,110 @@
                         <constraints>
                             <constraint firstItem="089-k1-WdA" firstAttribute="trailing" secondItem="fth-O1-MOb" secondAttribute="trailing" id="Pjd-7N-tnW"/>
                             <constraint firstItem="089-k1-WdA" firstAttribute="bottom" secondItem="fth-O1-MOb" secondAttribute="bottom" id="gBa-jG-Jaj"/>
+                            <constraint firstItem="fth-O1-MOb" firstAttribute="top" secondItem="089-k1-WdA" secondAttribute="top" id="iau-Jc-7ow"/>
                             <constraint firstItem="fth-O1-MOb" firstAttribute="leading" secondItem="089-k1-WdA" secondAttribute="leading" id="wMA-uv-EIH"/>
-                            <constraint firstItem="fth-O1-MOb" firstAttribute="top" secondItem="089-k1-WdA" secondAttribute="top" id="zx2-gb-xov"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="Ive-i0-wqB"/>
                     <connections>
                         <outlet property="tableView" destination="fth-O1-MOb" id="iZw-ex-ELr"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aFe-PG-q5V" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="622" y="58"/>
+            <point key="canvasLocation" x="2442.0289855072465" y="57.589285714285708"/>
+        </scene>
+        <!--Contact Detail View Controller-->
+        <scene sceneID="kZ1-iQ-C4G">
+            <objects>
+                <viewController restorationIdentifier="ContactDetailViewController" storyboardIdentifier="ContactDetailViewController" id="2Uo-Ln-vKH" customClass="ContactDetailViewController" customModule="IproveSchool" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="mhY-bf-S7H">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="1uE-Xi-hV9">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Djk-nc-lVh">
+                                    <size key="itemSize" width="128" height="128"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells/>
+                            </collectionView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Zhl-cp-idG"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Zhl-cp-idG" firstAttribute="bottom" secondItem="1uE-Xi-hV9" secondAttribute="bottom" id="4uH-E9-1qc"/>
+                            <constraint firstItem="1uE-Xi-hV9" firstAttribute="leading" secondItem="Zhl-cp-idG" secondAttribute="leading" id="PUw-vc-J38"/>
+                            <constraint firstItem="Zhl-cp-idG" firstAttribute="trailing" secondItem="1uE-Xi-hV9" secondAttribute="trailing" id="Snu-s0-xbQ"/>
+                            <constraint firstItem="1uE-Xi-hV9" firstAttribute="top" secondItem="Zhl-cp-idG" secondAttribute="top" id="b8G-Wu-FOF"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="collectionView" destination="1uE-Xi-hV9" id="hr3-XJ-S5U"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x6D-Kt-jkv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4681" y="58"/>
+        </scene>
+        <!--Detail View Controller-->
+        <scene sceneID="3lU-Wi-1AX">
+            <objects>
+                <viewController restorationIdentifier="DetailViewController" storyboardIdentifier="DetailViewController" id="9A4-gi-PxD" customClass="DetailViewController" customModule="IproveSchool" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="HTJ-Z1-dHm">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="xEd-2f-PRe">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="wth-Ge-Rmm">
+                                    <size key="itemSize" width="128" height="128"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells/>
+                            </collectionView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Wlp-hp-OFa"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="xEd-2f-PRe" firstAttribute="top" secondItem="Wlp-hp-OFa" secondAttribute="top" id="5Zr-Pe-0dN"/>
+                            <constraint firstItem="xEd-2f-PRe" firstAttribute="leading" secondItem="Wlp-hp-OFa" secondAttribute="leading" id="Oeu-a8-7Or"/>
+                            <constraint firstItem="Wlp-hp-OFa" firstAttribute="trailing" secondItem="xEd-2f-PRe" secondAttribute="trailing" id="VPF-hN-uDP"/>
+                            <constraint firstItem="Wlp-hp-OFa" firstAttribute="bottom" secondItem="xEd-2f-PRe" secondAttribute="bottom" id="sMe-Yi-H1O"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="detailCollectionView" destination="xEd-2f-PRe" id="dVs-ZS-5LG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7y5-pA-OK4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3229" y="58"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="zPA-o0-PcK">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="DlB-IS-bYX" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="No3-tM-aST">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="ZB0-yS-yt4" kind="relationship" relationship="rootViewController" id="row-u4-zae"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5Sk-UE-mau" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1531.8840579710145" y="57.589285714285708"/>
         </scene>
     </scenes>
     <resources>
