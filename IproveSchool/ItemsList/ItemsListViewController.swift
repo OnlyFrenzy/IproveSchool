@@ -18,7 +18,7 @@ class ItemsListViewController: UIViewController {
     private var dataSource: ItemsListTableViewDataSource!
     
     override func viewDidLoad() {
-        super .viewDidLoad()
+        super.viewDidLoad()
         
         viewModel.loadContacts { (characters) in
             self.characters = characters

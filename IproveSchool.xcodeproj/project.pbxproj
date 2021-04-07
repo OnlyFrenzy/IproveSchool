@@ -28,7 +28,6 @@
 		8E7DD0352614974900741897 /* ConfigurableHeaderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7DD0342614974800741897 /* ConfigurableHeaderProtocol.swift */; };
 		8E7DD0382614980E00741897 /* HeaderConfiguratorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7DD0372614980E00741897 /* HeaderConfiguratorProtocol.swift */; };
 		8E7DD04A2616F4A300741897 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7DD0492616F4A200741897 /* DetailViewController.swift */; };
-		8E7DD051261717D200741897 /* ItemsListDisplayDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7DD050261717D200741897 /* ItemsListDisplayDelegate.swift */; };
 		8E7DD058261728F700741897 /* ContactCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7DD056261728F700741897 /* ContactCollectionViewCell.swift */; };
 		8E7DD059261728F700741897 /* ContactCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E7DD057261728F700741897 /* ContactCollectionViewCell.xib */; };
 		8E7DD05E2617453900741897 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 8E7DD05D2617453900741897 /* Alamofire */; };
@@ -61,7 +60,6 @@
 		8E7DD0342614974800741897 /* ConfigurableHeaderProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurableHeaderProtocol.swift; sourceTree = "<group>"; };
 		8E7DD0372614980E00741897 /* HeaderConfiguratorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderConfiguratorProtocol.swift; sourceTree = "<group>"; };
 		8E7DD0492616F4A200741897 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
-		8E7DD050261717D200741897 /* ItemsListDisplayDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsListDisplayDelegate.swift; sourceTree = "<group>"; };
 		8E7DD056261728F700741897 /* ContactCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactCollectionViewCell.swift; sourceTree = "<group>"; };
 		8E7DD057261728F700741897 /* ContactCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContactCollectionViewCell.xib; sourceTree = "<group>"; };
 		8E824D36261B101E0042A03D /* ItemListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListViewModel.swift; sourceTree = "<group>"; };
@@ -211,7 +209,6 @@
 			children = (
 				8E88CAB5260E0294009927E6 /* ItemsListViewController.swift */,
 				8E86C188260E0A3400FC4EB0 /* ItemsListTableViewDataSource.swift */,
-				8E7DD050261717D200741897 /* ItemsListDisplayDelegate.swift */,
 				8E824D36261B101E0042A03D /* ItemListViewModel.swift */,
 				8E88CAB4260E0258009927E6 /* Cells */,
 				8E7DD0482616F47700741897 /* DetailViewController */,
@@ -323,7 +320,6 @@
 				8E88CAA92604E563009927E6 /* CustomButton.swift in Sources */,
 				8E16C18C26174AA0005C3968 /* Characters.swift in Sources */,
 				8E7DD058261728F700741897 /* ContactCollectionViewCell.swift in Sources */,
-				8E7DD051261717D200741897 /* ItemsListDisplayDelegate.swift in Sources */,
 				8E86C189260E0A3400FC4EB0 /* ItemsListTableViewDataSource.swift in Sources */,
 				8E18279026022D8E00E67A29 /* ViewController.swift in Sources */,
 				8E18278C26022D8E00E67A29 /* AppDelegate.swift in Sources */,

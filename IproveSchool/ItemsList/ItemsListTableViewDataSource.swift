@@ -56,10 +56,6 @@ extension ItemsListTableViewDataSource: UITableViewDataSource {
         return UITableViewHeaderFooterView()
     }
     
-    private func titleTextOfSection(section: Int) -> String {
-        return ""
-    }
-    
     func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
         return 70
     }

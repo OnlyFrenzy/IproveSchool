@@ -20,7 +20,8 @@ class DetailViewController: UIViewController {
     }
     
     override func viewDidLoad() {
-        super .viewDidLoad()
+        super.viewDidLoad()
+        
         let detailNib = UINib(nibName: ContactCollectionViewCell.className, bundle: nil)
         detailCollectionView.register(detailNib, forCellWithReuseIdentifier: ContactCollectionViewCell.className)
         navigationItem.title = "Details"
