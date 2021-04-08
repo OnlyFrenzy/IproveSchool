@@ -8,20 +8,19 @@
 import UIKit
 
 class DetailViewController: UIViewController {
-    
-    @IBOutlet private weak var detailCollectionView: UICollectionView!
-    
+    @IBOutlet private var detailCollectionView: UICollectionView!
+
     var details: [Detail] = []
-    
+
     var collectionViewLayout: UICollectionViewLayout {
-        UICollectionViewCompositionalLayout{ (section, env) -> NSCollectionLayoutSection in
-            return ContactCollectionViewCell.defaultSectionLayout(env: env)
+        UICollectionViewCompositionalLayout { (_, env) -> NSCollectionLayoutSection in
+            ContactCollectionViewCell.defaultSectionLayout(env: env)
         }
     }
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
         let detailNib = UINib(nibName: ContactCollectionViewCell.className, bundle: nil)
         detailCollectionView.register(detailNib, forCellWithReuseIdentifier: ContactCollectionViewCell.className)
         navigationItem.title = "Details"
@@ -32,10 +31,10 @@ class DetailViewController: UIViewController {
 }
 
 extension DetailViewController: UICollectionViewDelegate, UICollectionViewDataSource {
-    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+    func collectionView(_: UICollectionView, numberOfItemsInSection _: Int) -> Int {
         return details.count
     }
-    
+
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         if let item = collectionView.dequeueReusableCell(withReuseIdentifier: ContactCollectionViewCell.className, for: indexPath) as? ContactCollectionViewCell {
             setupBackgroundColor(indexPath: indexPath)
@@ -43,7 +42,7 @@ extension DetailViewController: UICollectionViewDelegate, UICollectionViewDataSo
         }
         return UICollectionViewCell()
     }
-    
+
     func setupBackgroundColor(indexPath: IndexPath) {
         if details[indexPath.item].gender == .female {
             detailCollectionView.backgroundColor = .systemPink

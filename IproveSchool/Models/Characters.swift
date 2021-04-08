@@ -13,12 +13,13 @@ import Foundation
 //   let welcome = try? newJSONDecoder().decode(Welcome.self, from: jsonData)
 
 // MARK: - Welcome
+
 struct CharacterResponce: Codable {
-    
     let results: [Character]
 }
 
 // MARK: - Result
+
 struct Character: Codable {
     let id: Int
     let name: String
@@ -36,10 +37,11 @@ struct Character: Codable {
 enum Gender: String, Codable {
     case female = "Female"
     case male = "Male"
-    case unknown = "unknown"
+    case unknown
 }
 
 // MARK: - Location
+
 struct Location: Codable {
     let name: String
     let url: String
@@ -53,14 +55,13 @@ enum Species: String, Codable {
 enum Status: String, Codable {
     case alive = "Alive"
     case dead = "Dead"
-    case unknown = "unknown"
+    case unknown
 }
 
 // MARK: - Encode/decode helpers
 
 class JSONNull: Codable, Hashable {
-
-    public static func == (lhs: JSONNull, rhs: JSONNull) -> Bool {
+    public static func == (_: JSONNull, _: JSONNull) -> Bool {
         return true
     }
 

@@ -8,5 +8,5 @@
 import Foundation
 
 protocol HeaderConfiguratorProtocol {
-    var headerIdentifier: String {get}
+    var headerIdentifier: String { get }
 }

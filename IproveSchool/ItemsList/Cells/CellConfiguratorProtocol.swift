@@ -8,20 +8,16 @@
 import Foundation
 
 protocol CellConfiguratorProtocol: NSObject {
-    var cellIdentifier: String {get}
-    var selectionClosure: (() -> ())? {get set}
+    var cellIdentifier: String { get }
+    var selectionClosure: (() -> Void)? { get set }
 }
 
 extension CellConfiguratorProtocol {
     var cellIdentifier: String {
-        get {
-            return Self.className
-        }
+        return Self.className
     }
-    
-    var selectionClosure: (() -> ())? {
-        get {
-            return nil
-        }
+
+    var selectionClosure: (() -> Void)? {
+        return nil
     }
 }

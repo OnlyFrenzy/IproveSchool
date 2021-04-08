@@ -9,5 +9,5 @@ import UIKit
 
 protocol ConfigurableHeaderProtocol {
     func configureWithHeaderConfigurator(model: HeaderConfiguratorProtocol) -> UITableViewHeaderFooterView
-    func setTurnButtonHandler(handler: ((String) -> ())?)
+    func setTurnButtonHandler(handler: ((String) -> Void)?)
 }

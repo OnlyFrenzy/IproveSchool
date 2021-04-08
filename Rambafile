@@ -1,0 +1,22 @@
+### Headers settings
+company: OnlyFrenzy
+
+### Xcode project settings
+project_name: IproveSchool
+xcodeproj_path: IproveSchool.xcodeproj
+
+### Code generation settings section
+# The main project target name
+project_target: IproveSchool
+
+# The file path for new modules
+project_file_path: /IproveSchool/Modules
+
+# The Xcode group path to new modules
+project_group_path: /IproveSchool/Modules
+
+### Templates
+templates:
+- {name: swifty_сoordinator, local: 'Generamba/swifty_сoordinator/'}
+- {name: swifty_mvvm, local: 'Generamba/swifty_mvvm/'}
+- {name: swifty_mvvm_storyboard, local: 'Generamba/swifty_mvvm_storyboard/'}

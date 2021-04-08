@@ -5,14 +5,13 @@
 //  Created by OnlyFrenzy on 29.03.2021.
 //
 
-import UIKit
 import Kingfisher
+import UIKit
 
 class CharacterTableViewCell: UITableViewCell, ConfigurableCellProtocol {
-    
-    @IBOutlet private weak var titleLabel: UILabel!
-    @IBOutlet private weak var portraitImageView: UIImageView!
-    
+    @IBOutlet private var titleLabel: UILabel!
+    @IBOutlet private var portraitImageView: UIImageView!
+
     func configureWithCellConfigurator(model: CellConfiguratorProtocol) -> UITableViewCell {
         guard let characterModel = model as? RaMCharacter else { return self }
         titleLabel.text = characterModel.name
@@ -22,12 +21,12 @@ class CharacterTableViewCell: UITableViewCell, ConfigurableCellProtocol {
 }
 
 class RaMCharacter: NSObject, CellConfiguratorProtocol {
-    var selectionClosure: (() -> ())?
-    
+    var selectionClosure: (() -> Void)?
+
     var name: String
     var portrait: String
     var gender: Gender
-    
+
     init(name: String, portrait: String, gender: Gender) {
         self.name = name
         self.portrait = portrait
