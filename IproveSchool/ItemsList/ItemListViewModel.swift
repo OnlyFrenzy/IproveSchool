@@ -13,12 +13,17 @@ protocol ItemListViewModelProtocol {
 }
 
 class ItemListViewModel: NSObject, ItemListViewModelProtocol {
-    let networkService = NetworkService()
+    let networkService = NetworkManager<CharacterProvider>()
 
     func loadCharacters(completion: @escaping ([Character]) -> Void) {
-        networkService.requestLoad(link: .characterURLString, completion: completion)
-//        networkService.requestLoad(link: .characterURLString) { characters in
-//            completion(characters)
-//        }
+        networkService.load(service: .showCharacters, decodeType: CharacterResponse.self) { [completion] result in
+            switch result {
+            case let .success(response):
+                let characters = response.results
+                completion(characters)
+            case let .failure(error):
+                print(error)
+            }
+        }
     }
 }

@@ -19,7 +19,7 @@ class NetworkService {
             case let .success(data):
                 guard let data = data else { return }
                 let decoder = JSONDecoder()
-                guard let result = try? decoder.decode(CharacterResponce.self, from: data) else { return }
+                guard let result = try? decoder.decode(CharacterResponse.self, from: data) else { return }
                 completion(result.results)
             }
         }

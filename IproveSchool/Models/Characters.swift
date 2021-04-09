@@ -14,7 +14,7 @@ import Foundation
 
 // MARK: - Welcome
 
-struct CharacterResponce: Codable {
+struct CharacterResponse: Codable {
     let results: [Character]
 }
 

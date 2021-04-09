@@ -17,6 +17,9 @@
 		8E18279526022D9400E67A29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E18279426022D9400E67A29 /* Assets.xcassets */; };
 		8E18279826022D9400E67A29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E18279626022D9400E67A29 /* LaunchScreen.storyboard */; };
 		8E1827AC2603C0E800E67A29 /* Roboto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E1827AB2603C0E800E67A29 /* Roboto.ttf */; };
+		8E19FEB226206471008DA757 /* CharacterProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E19FEAC26206471008DA757 /* CharacterProvider.swift */; };
+		8E19FEB326206471008DA757 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E19FEAD26206471008DA757 /* NetworkManager.swift */; };
+		8E19FEB426206471008DA757 /* URLRequestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E19FEAF26206471008DA757 /* URLRequestBuilder.swift */; };
 		8E7DA7A4260E0EB200BB9BD9 /* NSObject+className.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7DA7A3260E0EB200BB9BD9 /* NSObject+className.swift */; };
 		8E7DA7A7260E180200BB9BD9 /* CGColor+UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7DA7A6260E180200BB9BD9 /* CGColor+UIColor.swift */; };
 		8E7DA7AA260E182300BB9BD9 /* UIImage+PortraitImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7DA7A9260E182300BB9BD9 /* UIImage+PortraitImage.swift */; };
@@ -60,6 +63,9 @@
 		8E18279726022D9400E67A29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8E18279926022D9400E67A29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8E1827AB2603C0E800E67A29 /* Roboto.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Roboto.ttf; sourceTree = "<group>"; };
+		8E19FEAC26206471008DA757 /* CharacterProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterProvider.swift; sourceTree = "<group>"; };
+		8E19FEAD26206471008DA757 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		8E19FEAF26206471008DA757 /* URLRequestBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLRequestBuilder.swift; sourceTree = "<group>"; };
 		8E7DA7A3260E0EB200BB9BD9 /* NSObject+className.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject+className.swift"; sourceTree = "<group>"; };
 		8E7DA7A6260E180200BB9BD9 /* CGColor+UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGColor+UIColor.swift"; sourceTree = "<group>"; };
 		8E7DA7A9260E182300BB9BD9 /* UIImage+PortraitImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+PortraitImage.swift"; sourceTree = "<group>"; };
@@ -182,6 +188,22 @@
 			path = Fonts;
 			sourceTree = "<group>";
 		};
+		8E19FEAB26206471008DA757 /* Providers */ = {
+			isa = PBXGroup;
+			children = (
+				8E19FEAC26206471008DA757 /* CharacterProvider.swift */,
+			);
+			path = Providers;
+			sourceTree = "<group>";
+		};
+		8E19FEAE26206471008DA757 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				8E19FEAF26206471008DA757 /* URLRequestBuilder.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
 		8E7DA7AD260E188800BB9BD9 /* Main */ = {
 			isa = PBXGroup;
 			children = (
@@ -259,6 +281,9 @@
 		8E88CAB3260E0236009927E6 /* ItemsList */ = {
 			isa = PBXGroup;
 			children = (
+				8E19FEAD26206471008DA757 /* NetworkManager.swift */,
+				8E19FEAE26206471008DA757 /* Protocols */,
+				8E19FEAB26206471008DA757 /* Providers */,
 				8E88CAB5260E0294009927E6 /* ItemsListViewController.swift */,
 				8E86C188260E0A3400FC4EB0 /* ItemsListTableViewDataSource.swift */,
 				8E824D36261B101E0042A03D /* ItemListViewModel.swift */,
@@ -423,6 +448,7 @@
 			files = (
 				8E7DA7A4260E0EB200BB9BD9 /* NSObject+className.swift in Sources */,
 				8E824D37261B101E0042A03D /* ItemListViewModel.swift in Sources */,
+				8E19FEB226206471008DA757 /* CharacterProvider.swift in Sources */,
 				8EB06058261DE104006BF9B4 /* Coordinator.swift in Sources */,
 				8E7DD0352614974900741897 /* ConfigurableHeaderProtocol.swift in Sources */,
 				8E7DD0382614980E00741897 /* HeaderConfiguratorProtocol.swift in Sources */,
@@ -432,6 +458,7 @@
 				8E16C18C26174AA0005C3968 /* Characters.swift in Sources */,
 				8E7DD058261728F700741897 /* ContactCollectionViewCell.swift in Sources */,
 				8EB06056261DE104006BF9B4 /* BaseCoordinator.swift in Sources */,
+				8E19FEB326206471008DA757 /* NetworkManager.swift in Sources */,
 				8E86C189260E0A3400FC4EB0 /* ItemsListTableViewDataSource.swift in Sources */,
 				8E18279026022D8E00E67A29 /* ViewController.swift in Sources */,
 				8E18278C26022D8E00E67A29 /* AppDelegate.swift in Sources */,
@@ -443,6 +470,7 @@
 				8E7DA7A7260E180200BB9BD9 /* CGColor+UIColor.swift in Sources */,
 				8EB06057261DE104006BF9B4 /* ModuleFactory.swift in Sources */,
 				8E7DD028261482ED00741897 /* CustomHeaderTableViewCell.swift in Sources */,
+				8E19FEB426206471008DA757 /* URLRequestBuilder.swift in Sources */,
 				8E88CAB6260E0294009927E6 /* ItemsListViewController.swift in Sources */,
 				8E7DA7AA260E182300BB9BD9 /* UIImage+PortraitImage.swift in Sources */,
 				985245352F4653F62C6CABB8 /* SettingsViewController.swift in Sources */,
