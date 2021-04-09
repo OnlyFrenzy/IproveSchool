@@ -8,23 +8,23 @@
 import UIKit
 
 class CustomHeaderTableViewCell: UITableViewHeaderFooterView, ConfigurableHeaderProtocol {
-    func setTurnButtonHandler(handler: ((String) -> ())?) {
-        self.turnButtonHandler = handler
+    func setTurnButtonHandler(handler: ((String) -> Void)?) {
+        turnButtonHandler = handler
     }
-    
-    var turnButtonHandler: ((String) -> ())?
-    
+
+    var turnButtonHandler: ((String) -> Void)?
+
     var headerButton: UIButton?
 
-    @IBOutlet private weak var turnButton: UIButton!
-    @IBOutlet private weak var titleLabel: UILabel!
-    
+    @IBOutlet private var turnButton: UIButton!
+    @IBOutlet private var titleLabel: UILabel!
+
     func configureWithHeaderConfigurator(model: HeaderConfiguratorProtocol) -> UITableViewHeaderFooterView {
         titleLabel.text = model.headerIdentifier
         turnButton.addTarget(self, action: #selector(didClickTurnButton), for: .touchUpInside)
         return self
     }
-    
+
     @objc
     func didClickTurnButton() {
         turnButtonHandler?(titleLabel.text ?? "")
